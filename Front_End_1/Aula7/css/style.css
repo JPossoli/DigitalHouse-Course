@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    color: blue;
+}
+
+.job-title {
+    background-color: blue;
+    color: white;
+}
+
+.high {
+    color: blue;
+}
+
+footer h2 {
+    color: #333333;
+}
+
+footer ul {
+    background-color: #333333;
+}
+
+footer ul li {
+    color: antiquewhite;
+}
