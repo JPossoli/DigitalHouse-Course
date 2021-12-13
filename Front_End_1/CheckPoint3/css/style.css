@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Source+Sans+3:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    /*font-family: 'Source Sans 3', sans-serif;*/
+    font-family: lato;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+    color: black;
+}
+
+.botao-modal {
+  display: inline;
+}
+
+.navbar-brand{
+    color:blue
+}
+
+.logo_page{
+    max-width:40px;
+    max-height:35px;
+    width: auto;
+    height: auto;
+}
+
+.logo_page1{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+#header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  #header .navbar {
+    background-color: #ee4401;
+    color: #0a0909;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  #header .nav-link {
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+  }
+  
+  #header .nav-link:hover {
+    color: black;
+    border-bottom: 2px solid white;
+  }
+  
+  .button {
+    text-transform: uppercase;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    color: #0a0909;
+    font-family: inherit;
+    border: 1px solid #ee4401;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    -webkit-transition: ease .3s;
+    transition: ease .3s;
+  }
+  
+  .button:hover {
+    background-color: #b83400;
+    border: none;
+
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .btn-primary {
+    background-color: #ee4401;
+  }
+  
+  .btn-outline-success {
+    background-color: white;
+    color: #ee4401;
+    border: 1px solid #ee4401;
+    text-transform: uppercase;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #b83400;
+    border: 1px solid #ee4401;
+  }
+  
+ 
+  .subtitulo-sobre {
+    color: grey;
+    font-size: 1rem;
+  }
+  
+  .card {
+    gap: 15px;
+  }
+  
+  @media (min-width: 1280px) {
+    .button {
+      display: inline-block;
+      margin-left: 5px;
+      margin: 0;
+      width: auto;
+    }
+    .alinhar {
+      float: left;
+    }
+  }
+  
+
+#banner{
+    background-image: url(../IMG/background.jfif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0; 
+    background-position: 35% 45%;
+    background-size: cover;
+    color:white;
+    
+}
+
+#footer{
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+    width: 100%;
+    height: 30vh;
+}
+
+
+
+.final_text{
+    text-align: center;
+}
+
+.form-cadastro label{
+  color: white;
+}
+
+.termos {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.termos:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.aviso {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
