@@ -1,7 +1,0 @@
-Project management
-https://github.com/users/JPossoli/projects/2
-
-Header: 100%x61px
-Footer: 100%x24px
-Mobile: 428x926
-Card: 428x455
