@@ -8,34 +8,35 @@
     <title>Calc</title>
 </head>
 <body>
+    
     <nav class="calc">
-        <nav class="display"><p class="display_text">2</p></nav>
+        <nav class="display"><p id="display_text">123</p></nav>
         <hr class="hr1">
-        <nav class="status"><p class="status_text">1+1</p></nav>
+        <nav class="status"><p id="status_text">123</p></nav>
         <hr class="hr2">
         <nav class="btns">
-            <div class="btn_op btn_op_c"><p class="value">C</p></div>
-            <div class="btn_op"><p class="value">()</p></div>
-            <div class="btn_op mod"><p class="value">%</p></div>
-            <div class="btn_op div"><p class="value">&div;</p></div>
-            <div class="btn_number"><p class="value">1</p></div>
-            <div class="btn_number"><p class="value">2</p></div>
-            <div class="btn_number"><p class="value">3</p></div>
-            <div class="btn_op times"><p class="value">x</p></div>
-            <div class="btn_number"><p class="value">4</p></div>
-            <div class="btn_number"><p class="value">5</p></div>
-            <div class="btn_number"><p class="value">6</p></div>
-            <div class="btn_op sub"><p class="value">-</p></div>
-            <div class="btn_number"><p class="value">7</p></div>
-            <div class="btn_number"><p class="value">8</p></div>
-            <div class="btn_number"><p class="value">9</p></div>
-            <div class="btn_op sum"><p class="value">+</p></div>
-            <div class="btn_op"><p class="value">+/-</p></div>
-            <div class="btn_number"><p class="value">0</p></div>
-            <class class="btn_op"><p class="value">.</p></class>
-            <div class="btn_op equal"><p class="value">=</p></div>
+            <a href="#" class="btn_op btn_op_c" id="c_btn"><p class="value">C</p></a>
+            <!--<a href="#" class="btn_op"><p class="value">()</p></a>-->
+            <a href="#" class="btn_op mod"><p class="value">%</p></a>
+            <a href="#" class="btn_op a"><p class="value">&div;</p></a>
+            <a href="#" class="btn_number" id="one"><p class="value">1</p></a>
+            <a href="#" class="btn_number" id="two"><p class="value">2</p></a>
+            <a href="#" class="btn_number" id="three"><p class="value">3</p></a>
+            <a href="#"  class="btn_op times" id="mult"><p class="value">x</p></a>
+            <a href="#"  class="btn_number" id="four"><p class="value">4</p></a>
+            <a href="#"  class="btn_number" id="five"><p class="value">5</p></a>
+            <a href="#"  class="btn_number" id="six"><p class="value">6</p></a>
+            <a href="#"  class="btn_op" id="sub"><p class="value">-</p></a>
+            <a href="#"  class="btn_number" id="seven"><p class="value">7</p></a>
+            <a href="#"  class="btn_number" id="eight"><p class="value">8</p></a>
+            <a href="#"  class="btn_number" id="nine"><p class="value">9</p></a>
+            <a href="#"  class="btn_op" id="sum"><p class="value">+</p></a>
+            <a hef="#"  class="btn_op" id="invert_signal"><p class="value">+/-</p></a>
+            <a href="#"  class="btn_number" id="zero"><p class="value">0</p></a>
+            <a href="#"  class="btn_op" id="dot"><p class="value">.</p></a>
+            <a href="#"  class="btn_op" id="equal"><p class="value">=</p></a>
         </nav>
     </nav>
-    <script src="script.js"></script>
+    <script type="module" src="./js/calculator.js"></script>
 </body>
 </html>
